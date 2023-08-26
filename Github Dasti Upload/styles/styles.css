@@ -1,0 +1,172 @@
+@font-face{
+    font-family: "Vazir-Light";
+    src: local("Vazir-Light"),
+    url(/Font/vazir-font-v16.1.0/Vazir-Light.ttf) format(truetype),
+    url(/Font/vazir-font-v16.1.0/Vazir-Light.woff2) format(woff2);
+}
+
+body{
+    font-family:"Vazir-Light","Vazir-Bold";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #3949AB;
+    color: #B388FF;
+}
+
+.logo{
+    width: 10px;
+    height: 20px;
+}
+
+.search:focus{
+    outline: 2px solid #B388FF;
+    background-color: #4FC3F7;
+    outline-offset: -2px;
+}
+
+.search-label{
+    color: #4FC3F7;
+}
+
+.search-label:hover{
+    color: #B2DFDB;
+}
+
+
+.search{
+    outline: 0.5px solid #B388FF;
+    outline-offset: -1px;
+    text-align: center;
+}
+
+.header{
+    width: 385px;
+    margin-left: auto;
+    border-top: 3px solid #B388FF;
+    border-bottom: 3px solid #B388FF;
+    padding: 10px;
+    border-radius: 60px;
+    word-spacing: 5px;
+}
+
+.header-link:hover{
+    color: #B2DFDB;
+
+}
+
+.header-link{
+    text-shadow: 2px 2px 2px #37474F;
+    text-decoration: none;
+    color: #4FC3F7;
+}
+
+.main-anime{
+    margin-top: 10px;
+    border: 6px solid #B388FF;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-align:justify;
+    text-shadow: 2px 2px 2px #37474F;
+    text-transform: capitalize;
+    font-size: 1em;
+    color: #B2DFDB;
+}
+
+.h2{
+    text-shadow: 2px 2px 5px #37474F;
+    color: #4FC3F7;
+    text-decoration: none;
+}
+
+.h2:hover{
+    color: #B2DFDB;
+}
+
+.anime-logo{
+    width: 200px;
+    height: 300px;
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.imdb{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.rotten-tomatoes{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.language{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.from{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.director{
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    padding: 4px;
+    border-radius: 10px;
+    color: #4FC3F7;
+}
+
+.imdb-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    vertical-align: sub;
+}
+
+.rotten-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    vertical-align: sub;
+}
+
+.download-link{
+    text-shadow: 2px 2px 2px #37474F;
+    text-decoration: none;
+    color: #4FC3F7;
+}
+
+.footer{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.span-address{
+    border-top: 2px  solid #B388FF;
+    border-bottom: 2px  solid #B388FF;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #4FC3F7;
+}
